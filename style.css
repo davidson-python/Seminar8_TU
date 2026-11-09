@@ -1,0 +1,49 @@
+h1 {
+    color:rgb(226, 130, 21);
+    font-size: 36px;
+    font-family: Arial, sans-serif;
+}
+
+p {
+    color: #eb0b0b;
+    font-size: 16px;
+    font-family: Georgia, serif;
+    text-align: center;
+}
+
+img {
+    border: 3px solid #eee309;
+    box-shadow: -6px 4px 8px 5px rgba(0, 0, 0, 0.1);
+    margin: 0 auto;
+    max-width: 100%;
+    height: auto;
+}
+
+th {
+    background-color: #070707;
+    color: #f7f6f6;
+    font-weight: bold;
+    padding: 10px;
+    text-align: left;
+}
+
+table, th, td {
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+body {
+    background-color: #49a768;
+    margin: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+}
